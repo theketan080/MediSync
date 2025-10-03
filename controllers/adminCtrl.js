@@ -2,7 +2,7 @@ const doctorModel = require("../models/doctorModel");
 const userModel = require("../models/userModels");
 
 const getAllUsersController = async (req, res) => {
-  try {
+  try {    //hh
     const users = await userModel.find({});
     res.status(200).send({
       success: true,
